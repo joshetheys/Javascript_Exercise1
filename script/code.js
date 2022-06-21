@@ -34,3 +34,6 @@ button.addEventListener('click', () =>{
     });
     localStorage.getItem('records', JSON.stringify(newHex));
 });
+(function loadData() {
+    console.table(list);
+})();
